@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.17.3/bin/yarn.js install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Unknown system error -122: Unknown system error -122, copyfile '/home/runner/.cache/yarn/v4/npm-acorn-4.0.13-105495ae5361d697bd195c825192e1ad7f253787/node_modules/acorn/CHANGELOG.md' -> '/home/runner/creact-react-app/node_modules/acorn/CHANGELOG.md'
+
+npm manifest: 
+  {
+    "name": "runner",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.4.0",
+      "react-dom": "^16.4.0",
+      "react-scripts": "1.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
